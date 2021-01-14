@@ -1,0 +1,27 @@
+.weather-data {
+  .weather-data-table {
+    .table-heading {
+      div {
+        width: 140px;
+        font-weight: bold;
+        padding: 0 20px;
+        border-bottom: 1px solid #aaa;
+      }
+    }
+
+    .table-col {
+      border-right: 1px solid #aaa;
+      margin-bottom: 3px;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .weather-data-spinner-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
