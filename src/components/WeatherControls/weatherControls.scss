@@ -1,0 +1,51 @@
+.weather-controls {
+  margin-bottom: 20px;
+
+  #metrics-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    width: 100%;
+  }
+
+  .dropdown-item {
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 575px) {
+  .weather-controls {
+    #metrics-dropdown {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .get-weather-btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .city-input {
+      margin-bottom: 10px;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .weather-controls {
+    .metrics-dropdown-wrapper {
+      width: 128px !important;
+      max-width: 128px !important;
+    }
+
+    .get-weather-btn-wrapper {
+      width: 145px !important;
+      max-width: 145px !important;
+    }
+  }
+}
