@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Weather app
+
+This is a simple weather application that allows to search weather based on city and unit (​metric, imperial, kelvin​) data. 
+It is developed using Redux-toolkit technology.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

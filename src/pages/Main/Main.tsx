@@ -1,5 +1,5 @@
-import React, { FunctionComponent, useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import React, { FunctionComponent } from 'react';
+import { Container } from 'react-bootstrap';
 import WeatherControls from '../../components/WeatherControls/WeatherControls';
 import WeatherData from '../../components/WeatherData/WeatherData';
 
